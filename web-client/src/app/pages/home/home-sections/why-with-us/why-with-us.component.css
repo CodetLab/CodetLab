@@ -1,0 +1,47 @@
+.por-que-contratarnos {
+  background-color: #4cc3ff;
+  padding: 4rem ;
+  color: #000;
+  border-radius: 12px;
+}
+
+.por-que-contratarnos h2 {
+  background-color: #fffb00;
+  display: inline-block;
+  padding: 0.5rem 1rem;
+  border-radius: 6px;
+  font-size: 1.8rem;
+  margin-bottom: 2rem;
+}
+
+.card-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1.5rem;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.card {
+  background-color: white;
+  border-radius: 12px;
+  border: solid #292929 3px;
+  padding: 1.5rem;
+  text-align: left;
+}
+
+
+/* Las dos cartas grandes ocupan ambas columnas */
+.card-large {
+  grid-column: span 2;
+}
+
+@media (max-width: 768px) {
+  .card-container {
+    grid-template-columns: 1fr;
+  }
+
+  .card-large {
+    grid-column: span 1;
+  }
+}
