@@ -1,9 +1,79 @@
-.init-conteiner{
+.init-conteiner {
+  position: relative;
+  width: 100%;
+  height: 100vh; /* ahora ocupa toda la pantalla */
+  overflow: hidden;
+}
+
+/* Imagen de fondo con opacidad */
+.init-conteiner::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    width: 100%;
     background-image: url('/init-sky-img.png');
     background-size: cover;
-    background-repeat: none;
-    opacity: 0.99;
-    height: 80vh;
+    background-repeat: no-repeat;
+    background-position: center;
+    flex-direction: column;  /* 🔄 cambia de fila a columna */
+    opacity: 0.5;
+    z-index: 0;
+}
+
+/* Contenido encima de la imagen */
+.init-info {
+    margin: auto;
+    height: 300px;
+    display: flex;
+    flex-direction: column;        /* Elementos en columna */
+    justify-content: center;       /* Centrado vertical */
+    align-items: center;           /* Centrado horizontal */
+    width: 60%;
+    position: relative;
+    z-index: 1;
+    opacity: 1;
+    color: white; /* opcional para mejor visibilidad sobre la imagen */
+}
+
+.init-contact-button{
+    background-color: #F4F440;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    padding-left: 8%;
+    padding-right: 8%;
+    border: none;
+    border-radius: 50px;
+}
+
+.init-titulo{
+    display: flex;
+
+    
+}
+
+.init-titulo h1{
+    margin-left: 15px;
+    font-size: 3rem;
+    line-height: 1.2; 
+}
+
+#init-subtitle{
+    font-size: 2rem;
+}
+
+#init-codetlab-titulo{
+    color: #FFFF00;
+}
+
+.init-subtitle{
+
+}
+
+
+.init-platforms{
+    background-color: #0085FE;
     width: 100%;
-    color: #292929;
+    margin-top: 0vh;
 }
