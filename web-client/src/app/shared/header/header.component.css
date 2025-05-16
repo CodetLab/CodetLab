@@ -1,0 +1,103 @@
+.displaynone {
+  display: none;
+}
+
+header{
+    width: 100%;
+    display: flex;
+    position: fixed;
+    z-index: 100;
+    user-select: none;
+}
+
+
+header img {
+    height: 70px;
+    width: 70px;
+}
+
+
+header svg {
+    height: 70px;
+    width: 70px;
+}
+
+#menu-btn:hover{
+    box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.2), 0 1px 1px 0 rgba(0, 0, 0, 0.19);
+}
+
+.header-lab-lg{
+    position:fixed;
+    top: 1%;
+    left: 1%;
+    height: 20px;
+    width: 20px;
+}
+
+.header-menu-btn{
+    position: fixed;
+    top: 1%;
+    right: 1%;
+}
+
+.header-menu-btn:hover rect{
+    fill : #fff;
+}
+
+.header-desp{
+    position: fixed;
+    width: 70%;
+    height: 100vh;
+    background-color: #F4F440;
+    z-index: 200;
+    right: 0%;
+    
+}
+
+.header-desp svg{
+    position: fixed;
+    top: 2%;
+    right: 2%;
+    height: 50px;
+    width: 50px;
+}
+
+.header-desp svg:hover{
+    background-color: #ffffff;
+    border-radius: 15px;
+}
+
+.header-links{
+    position: fixed;
+    top: 10%;
+    margin-left: 5%;
+    font-size: 2rem;
+    
+}
+
+
+.header-desp a{
+    text-decoration: none;
+    color: #0085FE;
+
+}
+
+
+.header-desp a:hover{
+    text-decoration: none;
+    color: #0085FE80;
+}
+
+li {
+    margin-bottom: 5%;
+}
+
+ul {
+          
+    list-style: none;     /* Quita los bullets/puntos */
+    padding: 0;           /* Elimina el padding por defecto */
+    margin: 0;            /* Elimina el margen por defecto */
+    
+}
+
+

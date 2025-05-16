@@ -3,7 +3,7 @@
   width: 100%;
   height: 100vh; /* ahora ocupa toda la pantalla */
   overflow: hidden;
-  padding-top: 20vh;
+    user-select: none;
 }
 
 /* Imagen de fondo con opacidad */
@@ -19,13 +19,14 @@
     background-repeat: no-repeat;
     background-position: center;
     flex-direction: column;  /* 🔄 cambia de fila a columna */
-    opacity: 0.5;
+    opacity: 0.7;
     z-index: 0;
 }
 
 /* Contenido encima de la imagen */
 .init-info {
     margin: auto;
+    margin-top: 15vh;
     height: 300px;
     display: flex;
     flex-direction: column;        /* Elementos en columna */
@@ -56,36 +57,49 @@
 .init-titulo{
     display: flex;
 
-    
 }
 
 .init-titulo h1{
     margin-left: 15px;
-    font-size: 3rem;
+    font-size: 5rem;
     line-height: 1.2; 
 }
 
 #init-subtitle{
     margin-top: 3%;
     margin-bottom: 5%;
-    font-size: 1.3rem;
-    width: 50%;
+    font-size: 1.5rem;
+    width: 80%;
+    text-align: center;
 }
 
 #init-codetlab-titulo{
     color: #FFFF00;
 }
 
-.init-subtitle{
 
-}
 
 
 .init-platforms{
     position: absolute;
-
-    bottom: %;    
+    bottom: 0%;    
     background-color: #0085FE;
     width: 100%;
-    
+    padding: 5%;
+}
+
+.init-platforms-conteiner{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    text-align: center;
+    width: 90%;
+}
+
+#init-platforms-tilte{
+    font-size: 2rem;
+    margin-bottom: 1%;
+}
+
+.init-platforms-conteiner h3{
+    font-size: 1.5rem;
 }

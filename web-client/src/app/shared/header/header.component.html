@@ -1,9 +1,34 @@
 <header>
-    <img src="" alt="">
-    <div>
-        <img src="" alt="">
+  <div class="header-lab-lg">
+    <img src="/logo_amarillo.svg" alt="logo">
+  </div>
+
+  <div class="header-menu-btn">
+    <svg (click)="viewHeader()" class="header-menu-btn" width="20" height="16" viewBox="0 0 20 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <rect width="20" height="16" rx="5" fill="#F4F440"/>
+      <line x1="4" y1="5.5" x2="16" y2="5.5" stroke="#0085FE"/>
+      <line x1="4" y1="10.5" x2="16" y2="10.5" stroke="#0085FE"/>
+    </svg>
+  </div>
+
+  <div [ngClass]="{ 'displaynone': !isMenuOpen }">
+    <div class="header-desp" id="header-nav-desp">
+      <svg (click)="viewHeader()" width="12" height="12" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <line x1="0.353553" y1="0.646447" x2="11.3536" y2="11.6464" stroke="#0085FE"/>
+        <line x1="0.646447" y1="11.6464" x2="11.6464" y2="0.646446" stroke="#0085FE"/>
+      </svg>
+
+      <nav class="header-links">
+        <ul>
+          <li><a href="">Home</a></li>
+          <li><a href="">Sobre Nosotros</a></li>
+          <li><a href="">Que Nos Distingue</a></li>
+          <li><a href="">Porque Nosotros</a></li>
+          <li><a href="">Nuestros Proyectos</a></li>
+          <li><a href="">Contactanos</a></li>
+        </ul>
+      </nav>
     </div>
-    <div>
-        
-    </div>
+  </div>
 </header>
+
