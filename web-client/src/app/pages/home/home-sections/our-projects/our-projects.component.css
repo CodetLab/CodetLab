@@ -1,15 +1,14 @@
 section {
   background-color: #292929;
-      padding-bottom: 200px;
-
+  padding: 5%;
 }
 
 .titulo {
   color: #F4F440;
-  font-size: 24px;
+  font-size: 3rem;
 
-   margin-right: 500px;
-    margin-bottom: 100px;
+
+  margin-bottom: 100px;
 }
 
 .contenedor-proyectos {
@@ -29,7 +28,7 @@ section {
 }
 
 .proyecto img {
-  max-width: 120px;
-  height: auto;
+  width: 280px;
+  height: 110px;
   display: block;
 }
