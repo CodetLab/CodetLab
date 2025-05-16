@@ -7,8 +7,9 @@
     width: 100%;
     height: 100vh;
     background-color: #F4F440;
-    padding-top: 15%;
+    padding-top: 25%;
     position: relative;
+    border-radius: 10px;
 }
 
 .About-us-section button {
@@ -18,8 +19,8 @@
     left: 5%;
     background-color: #292929;
     border: none;
-    height: 100px;
-    width: 100px;
+    height: 80px;
+    width: 80px;
     border-radius: 50px;
 }
 
