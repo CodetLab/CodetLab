@@ -68,6 +68,17 @@
 }
 
 .about-use-text p{
-    font-size: 1.5rem;
+    font-size: 2.5vh;
+}
+
+
+@media (max-width : 800px){
+    .about-use-text{
+        width: 90%;
+    }
+
+    .about-use-text p{
+    font-size: 2.3vh;
+}
 }
 
