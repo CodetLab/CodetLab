@@ -1,1 +1,44 @@
-<p>about-us works!</p>
+<section class="About-us-section">
+  <div class="Aoubt-us-carrusel-conteinet">
+    <div id="1" [ngClass]="{ displaynone: slide !== 1 }">
+      <img src="/fondo-carrusel-1.png" alt="img-carrusel-1" />
+      <div class="about-use-text">
+        <h1>Sobre Nosotros</h1>
+        <p>
+          En Code't Lab, transformamos ideas en soluciones digitales. Somos una empresa global dedicada al desarrollo de aplicaciones web, de escritorio y móviles, con el objetivo de empoderar a personas y organizaciones alrededor del mundo mediante la tecnología.
+        </p>
+      </div>
+    </div>
+    <div id="2" [ngClass]="{ displaynone: slide !== 2 }">
+      <img src="/fondo-carrusel-2.png" alt="img-carrusel-2" />
+      <div class="about-use-text">
+        <h1>Nuestra Misión</h1>
+        <p>
+          Desarrollar soluciones digitales de alta calidad que impacten positivamente a nuestros clientes, potenciando su crecimiento y presencia en el entorno tecnológico.
+        </p>
+      </div>
+    </div>
+    <div id="2" [ngClass]="{ displaynone: slide !== 3 }">
+      <img src="fondo-carrusel-3.png" alt="img-carrusel-3" />
+      <div class="about-use-text">
+        <h1>Nuestra Pasión</h1>
+        <p>
+          Nuestra pasión es crear experiencias digitales eficientes, seguras y personalizadas que resuelvan problemas reales y generen valor. Ya sea que necesites una aplicación innovadora, una plataforma empresarial robusta o una solución móvil intuitiva, en Code't Lab tenemos la experiencia y la creatividad para hacerlo posible.
+        </p>
+      </div>
+    </div>
+  </div>
+
+  <div>
+    <button (click)="slideMinus1()">
+         <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" style="cursor:pointer;">
+            <polyline points="15 18 9 12 15 6" />
+        </svg>
+    </button>
+    <button (click)="slidePlus1()">
+        <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" style="cursor:pointer;">
+            <polyline points="9 18 15 12 9 6" />
+        </svg>
+    </button>
+  </div>
+</section>
