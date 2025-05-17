@@ -72,7 +72,8 @@ header svg {
     top: 10%;
     margin-left: 5%;
     font-size: 2rem;
-    
+    overflow-x: hidden;
+    overflow-y: hidden;
 }
 
 
@@ -100,4 +101,8 @@ ul {
     
 }
 
-
+@media (max-width : 800px){
+    .header-desp{
+        width: 100%;
+    }
+}
