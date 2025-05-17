@@ -1,0 +1,55 @@
+export default `<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8"/>
+  <title>Code'tLab – Aprende, Programa y Crea</title>
+  <base href="/"/>
+
+  <!-- Responsive -->
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+
+  <!-- SEO -->
+  <meta name="description" content="Code'tLab es una plataforma para programadores que quieren aprender, practicar y construir proyectos reales de forma eficiente."/>
+  <meta name="keywords" content="programación, aprender a programar, proyectos, software, Angular, JavaScript, educación tech, desarrolladores"/>
+  <meta name="author" content="Code'tLab Team"/>
+  
+  <!-- PWA / Mobile Enhancements -->
+  <meta name="theme-color" content="#0D0D0D"/>
+  <meta name="apple-mobile-web-app-capable" content="yes"/>
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent"/>
+  <link rel="apple-touch-icon" href="assets/icons/icon-192x192.png"/>
+  <!-- Da error  <link rel="manifest" href="manifest.webmanifest" /> -->
+
+  <!-- Icon -->
+  <link rel="icon" type="image/svg+xml" href="logo.svg"/>
+
+  <!-- Fonts (Optimizado) -->
+  <link rel="preconnect" href="https://fonts.googleapis.com"/>
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin=""/>
+  <link rel="preload" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&amp;display=swap" as="style" onload="this.rel='stylesheet'"/>
+  <noscript>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" />
+  </noscript>
+
+  <!-- FontAwesome (minimizar si no usás todos los íconos) -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" integrity="sha512-..." crossorigin="anonymous" referrerpolicy="no-referrer"/>
+
+  <!-- Performance -->
+  <link rel="preload" href="main.js" as="script"/>
+  <link rel="preload" href="styles.css" as="style"/>
+  
+  <!-- Da error <link rel="preload" href="assets/hero-banner.webp" as="image" fetchpriority="high" />
+-->
+  
+  <!-- Content-Encoding -->
+  <meta http-equiv="Content-Encoding" content="gzip"/>
+<link rel="stylesheet" href="styles-6FX6CELJ.css"></head>
+<body><script type="text/javascript" id="ng-event-dispatch-contract">(()=>{function p(t,n,r,o,e,i,f,m){return{eventType:t,event:n,targetElement:r,eic:o,timeStamp:e,eia:i,eirp:f,eiack:m}}function u(t){let n=[],r=e=>{n.push(e)};return{c:t,q:n,et:[],etc:[],d:r,h:e=>{r(p(e.type,e,e.target,t,Date.now()))}}}function s(t,n,r){for(let o=0;o<n.length;o++){let e=n[o];(r?t.etc:t.et).push(e),t.c.addEventListener(e,t.h,r)}}function c(t,n,r,o,e=window){let i=u(t);e._ejsas||(e._ejsas={}),e._ejsas[n]=i,s(i,r),s(i,o,!0)}window.__jsaction_bootstrap=c;})();
+</script>
+  <app-root></app-root>
+  <noscript>
+    You need to enable JavaScript to run this app.
+  </noscript>
+<script src="polyfills-FFHMD2TL.js" type="module"></script><script src="main-5OTE24MZ.js" type="module"></script></body>
+</html>
+`;
