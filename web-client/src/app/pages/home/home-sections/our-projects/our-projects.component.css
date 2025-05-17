@@ -20,6 +20,7 @@ section {
 
 .proyecto {
   background-color: #386B81;
+  width: 90%;
   border-radius: 10px;
   padding: 20px 30px;
   display: flex;
