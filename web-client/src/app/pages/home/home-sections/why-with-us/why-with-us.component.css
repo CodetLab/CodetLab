@@ -36,7 +36,9 @@
   grid-column: span 2;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 800px) {
+
+
   .card-container {
     grid-template-columns: 1fr;
   }
@@ -44,7 +46,18 @@
   .card-large {
     grid-column: span 1;
   }
-    .card {
+  .card {
     font-size: 0.9rem;
   }
+
+  .por-que-contratarnos{
+    padding: 5%;
+  }
+
+  .por-que-contratarnos h2{
+    padding: 0.5rem 1rem;
+    border-radius: 6px;
+    font-size: 1.5rem;
+  }
+
 }
