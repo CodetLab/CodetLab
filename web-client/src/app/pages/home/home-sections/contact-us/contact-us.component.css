@@ -27,7 +27,7 @@ label {
 }
 
 /* Inputs */
-input {
+input, textarea {
     width: 100%;
     border-radius: 0.75rem;
     background-color: #292929;

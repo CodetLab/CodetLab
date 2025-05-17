@@ -28,13 +28,25 @@
   padding: 1.5rem;
   text-align: left;
   height: 200px;
-  font-size: 1.3rem;
+  font-size: 1rem;
 }
 
 /* Las dos cartas grandes ocupan ambas columnas */
 .card-large {
   grid-column: span 2;
 }
+.por-que-contratarnos h2 {
+  background-color: #fffb00;
+  display: inline-block;
+  padding: 0.4rem 1rem;
+  border-radius: 6px;
+  font-size: clamp(1.8rem, 5vw, 3rem);
+  margin-bottom: 1.5rem;
+  max-width: 90vw;
+  word-wrap: break-word;
+  text-align: center;
+}
+
 
 @media (max-width: 800px) {
 
@@ -46,18 +58,16 @@
   .card-large {
     grid-column: span 1;
   }
-  .card {
-    font-size: 0.9rem;
-  }
+
 
   .por-que-contratarnos{
     padding: 5%;
   }
 
-  .por-que-contratarnos h2{
-    padding: 0.5rem 1rem;
-    border-radius: 6px;
-    font-size: 1.5rem;
+  .por-que-contratarnos h2 {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
   }
 
 }
