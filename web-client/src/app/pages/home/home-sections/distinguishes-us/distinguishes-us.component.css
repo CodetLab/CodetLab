@@ -13,7 +13,7 @@
   content: "";
   position: absolute;
   top: 0; left: 0; right: 0; bottom: 0;
-  background: url('/dev-pc.png') no-repeat center center;
+  background: url('/que-nos-distingue-img.png') no-repeat center center;
   background-size: cover;
   background-color: rgba(41, 41, 41, 0.5); /* Fondo oscuro con opacidad */
   opacity: 0.5;
@@ -30,16 +30,48 @@ h1 {
   z-index: 1;
 }
 
+.quenosditingue-slide{
+  background-color: #292929;
+  padding: 7%;
+  border-radius: 15px;
+}
 
+.quenosditingue-slide-especial{
+  background-color: #292929;
+  padding: 7%;
+  border-radius: 15px;
+  grid-column-start: -3;
+  grid-column-end: -1;
+}
 
 .imagen {
   width: 900px;
   height: 500px;
 }
 
-.textos p {
-  margin-bottom: 10%;
+.contenedor{
+  margin-top: 5%;
+}
+
+.textos{
+  display: grid;
+  grid-template-columns: repeat(2 , 1fr);
+  gap: 10px;
+  width: 80%;
+  
+  margin: auto;
+
+  
+}
+
+h4{
   font-size: 1.5rem;
+}
+
+.textos p {
+  
+  margin-bottom: 10%;
+  font-size: 1.3rem;
   opacity: 1; /* Asegura visibilidad total */
   position: relative;
   z-index: 1;
